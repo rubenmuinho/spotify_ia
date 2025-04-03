@@ -1,6 +1,6 @@
-# Análisis y Procesamiento de Datos de Spotify con Inteligencia Artificial
+# Recomendador de Canciones en Spotify
 
-Este repositorio contiene un conjunto de datos extenso de canciones de Spotify y un notebook de Jupyter en el que se implementan técnicas de análisis y procesamiento de datos utilizando herramientas de inteligencia artificial y aprendizaje automático.
+Este repositorio contiene un sistema de recomendación de canciones basado en datos de Spotify. A partir de una canción seleccionada, el sistema sugiere cinco canciones similares utilizando técnicas de procesamiento de datos y modelos de recomendación.
 
 ## Contenido del Repositorio
 
@@ -33,16 +33,14 @@ El notebook `spotify_ia_refresh.ipynb` está estructurado en varias secciones:
    - Eliminación de valores nulos o duplicados.
    - Normalización y escalado de variables.
    - Conversión de datos categóricos a numéricos.
-3. **Análisis Exploratorio**:
-   - Estadísticas descriptivas.
-   - Visualización de distribuciones y correlaciones.
-   - Identificación de tendencias y patrones.
+3. **Sistema de Recomendación**:
+   - Implementación de un algoritmo de similitud basado en distancia euclidiana o coseno.
+   - A partir de una canción seleccionada, se calculan las canciones más cercanas según sus características musicales.
+   - Generación de una lista de 5 canciones recomendadas.
 4. **Modelado Predictivo**:
    - Implementación de modelos de aprendizaje automático para predecir la popularidad de una canción en base a sus características.
-   - Evaluación de modelos mediante métricas como MAE, MSE y R^2.
-5. **Conclusiones y Reflexiones**:
-   - Principales hallazgos del análisis.
-   - Posibles mejoras y futuras extensiones del trabajo.
+5. **Interfaz de Usuario en el Notebook:s**:
+   - Se permite al usuario seleccionar una canción y obtener nuevas recomendaciones de forma iterativa.
 
 ## Uso del Proyecto
 
