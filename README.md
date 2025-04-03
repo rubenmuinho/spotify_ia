@@ -48,11 +48,11 @@ El notebook `spotify_ia_refresh.ipynb` está estructurado en varias secciones:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/rubenmuinho/spotify_ia.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
-   cd tu_repositorio
+   cd spotify_ia
    ```
 3. Abre el notebook en Jupyter:
    ```bash
