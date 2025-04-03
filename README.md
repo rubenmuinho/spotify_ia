@@ -18,7 +18,7 @@ musicales como tempo, tonalidad, popularidad, entre otras.
    - Se implementa un sistema basado en distancia euclidiana o coseno para calcular la similitud entre canciones.
    - A partir de una canción seleccionada, el modelo encuentra las más cercanas en términos de características musicales.
 4. **Modelado Predictivo**: Se prueban modelos de machine learning para predecir la popularidad de una canción en base a sus atributos.
-5. **Interfaz en Jupyter Notebook**: Permite al usuario seleccionar una canción y obtener recomendaciones de manera interactiva.
+5. **Interfaz en Jupyter Notebook**: Permite al usuario seleccionar una canción y obtener recomendaciones de manera interactiva. Cuenta con una opción de refrescar esas recomendaciones cada vez que se pulsa un botón.
 
 ## Contenido del Repositorio
 
